@@ -1,16 +1,20 @@
 # hardware-seo
 
-Repository for turning video/podcast transcripts into SEO-ready content and
-structured data, deployable to a Next.js site hosted on Vercel.
+SEO working repository for a **biomedical laboratory hardware** e-commerce site
+(Next.js on Vercel).
+
+**New to this chat? Read [`HANDOFF.md`](./HANDOFF.md) first.**
 
 ## How this works (plain-English version)
 
-1. You paste a transcript into Claude.
-2. Claude saves the raw transcript here under `transcripts/`.
-3. Claude writes an optimized article, page metadata, and JSON-LD schema into
-   `content/posts/<slug>/`.
-4. The files get committed to GitHub.
-5. Vercel sees the new commit and republishes the site automatically.
+1. Ali pastes a transcript of an SEO/marketing video into Claude.
+2. Claude archives the raw transcript under `transcripts/`.
+3. Claude extracts the *tactics* from it and translates them for this market
+   into `playbook/`. The transcript content itself is never published — it's
+   method input, not website content.
+4. Once we have the live site, Claude turns the playbook into concrete
+   deliverables: keyword targets, page metadata, structured data, and code.
+5. Files get committed to GitHub; Vercel republishes automatically.
 
 You don't need to run any git commands yourself. Just say things like
 "push this" or "show me what changed" and Claude handles it.
@@ -19,20 +23,22 @@ You don't need to run any git commands yourself. Just say things like
 
 | Folder | What's in it |
 | --- | --- |
-| `transcripts/` | Raw, unedited source transcripts. Never published — kept so we can regenerate content later. |
-| `content/posts/<slug>/` | One folder per article. Contains the article, its metadata, and its schema. |
+| `transcripts/` | Raw, unedited source transcripts. Method input only — never published. |
+| `playbook/` | Tactics extracted from the transcripts, translated for B2B lab equipment. |
 | `components/` | Reusable React components to drop into a Next.js site (e.g. the JSON-LD injector). |
-| `lib/` | Small helper functions for building metadata. |
-| `templates/` | The repeatable checklist Claude follows for every new transcript, so output stays consistent. |
+| `lib/` | Helper functions for building page metadata. |
+| `templates/` | The repeatable checklist Claude follows, so output stays consistent. |
+| `examples/` | Format demonstrations. **Not for publishing.** |
 
-## Anatomy of a post folder
+## Status
 
-```
-content/posts/vibe-coded-app-no-customers/
-├── index.mdx        ← the article body (Markdown + JSX)
-├── meta.json        ← title tag, meta description, keywords, OG tags
-└── schema.jsonld    ← structured data for Google rich results
-```
+- [x] Transcript #2 archived and translated into a playbook
+- [ ] Transcript #1 — not yet provided
+- [ ] Live site URL — **blocking everything site-specific**
+- [ ] Site repo / platform details
+- [ ] Site audit
+- [ ] Keyword and content plan
+- [ ] Technical SEO deliverables
 
 ## Integrating into a Next.js (App Router) site
 
