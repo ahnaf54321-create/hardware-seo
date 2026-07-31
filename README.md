@@ -30,10 +30,16 @@ You don't need to run any git commands yourself. Just say things like
 | `templates/` | The repeatable checklist Claude follows, so output stays consistent. |
 | `examples/` | Format demonstrations. **Not for publishing.** |
 
+## Start here
+
+`playbook/00-priority-stack.md` — the ranked plan synthesized from both
+transcripts. Everything else is supporting detail.
+
 ## Status
 
+- [x] Transcript #1 archived and translated into a playbook
 - [x] Transcript #2 archived and translated into a playbook
-- [ ] Transcript #1 — not yet provided
+- [x] Priority stack drafted (provisional, pending audit)
 - [ ] Live site URL — **blocking everything site-specific**
 - [ ] Site repo / platform details
 - [ ] Site audit

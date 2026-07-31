@@ -14,9 +14,12 @@ them to the actual site. The transcript content itself never gets published.
 
 ## What's already done
 
-- `transcripts/` — raw source transcripts, archived.
-- `playbook/01-promoter-blueprint-applied.md` — the first transcript's framework
-  translated for B2B lab equipment.
+- `transcripts/` — both raw source transcripts, archived.
+- **`playbook/00-priority-stack.md` — read this one.** The ranked plan
+  synthesized from both transcripts.
+- `playbook/01-promoter-blueprint-applied.md` and
+  `playbook/02-seven-distribution-strategies-applied.md` — each transcript's
+  tactics translated for B2B lab equipment, with honest fit ratings.
 - `components/`, `lib/`, `templates/` — reusable Next.js SEO helpers (JSON-LD
   injector, metadata builder, a process checklist).
 - `examples/demo-article-not-for-publishing/` — a sample article I built before
