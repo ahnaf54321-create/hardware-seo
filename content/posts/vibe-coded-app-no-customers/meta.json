@@ -1,0 +1,48 @@
+{
+  "slug": "vibe-coded-app-no-customers",
+  "title": "Vibe-Coded App With No Users? The Promoter Blueprint",
+  "description": "Shipped your app and heard crickets? The 4-step blueprint — traffic, holding pattern, selling events, loop — that turns a silent launch into revenue.",
+  "canonical": "https://REPLACE_ME.com/blog/vibe-coded-app-no-customers",
+  "primaryKeyword": "vibe coded app no users",
+  "keywords": [
+    "vibe coded app no users",
+    "how to get customers for your app",
+    "vibe marketing",
+    "promoter blueprint",
+    "using AI for marketing",
+    "webinar funnel",
+    "email newsletter marketing"
+  ],
+  "datePublished": "2026-07-31",
+  "dateModified": "2026-07-31",
+  "author": {
+    "name": "REPLACE_ME",
+    "url": "https://REPLACE_ME.com/about"
+  },
+  "publisher": {
+    "name": "REPLACE_ME",
+    "logo": "https://REPLACE_ME.com/logo.png"
+  },
+  "image": {
+    "url": "https://REPLACE_ME.com/images/vibe-coded-app-no-customers.png",
+    "alt": "Four-step promoter blueprint diagram: traffic feeding a holding pattern, which feeds selling events, with non-buyers looping back",
+    "width": 1200,
+    "height": 630
+  },
+  "openGraph": {
+    "type": "article",
+    "title": "Your Vibe-Coded App Has No Users. Here's the Fix.",
+    "description": "The four-step system that moves strangers to customers: traffic, holding pattern, selling event, loop.",
+    "siteName": "REPLACE_ME"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Your Vibe-Coded App Has No Users. Here's the Fix.",
+    "description": "Traffic, holding pattern, selling event, loop — the promoter blueprint for launched-but-silent products.",
+    "creator": "@REPLACE_ME"
+  },
+  "robots": {
+    "index": true,
+    "follow": true
+  }
+}

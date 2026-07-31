@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://REPLACE_ME.com/blog/vibe-coded-app-no-customers#article",
+      "headline": "Your Vibe-Coded App Has No Users. Here's the Fix.",
+      "description": "Shipped your app and heard crickets? The four-step promoter blueprint — traffic, holding pattern, selling events, loop — that turns a silent launch into revenue.",
+      "url": "https://REPLACE_ME.com/blog/vibe-coded-app-no-customers",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://REPLACE_ME.com/blog/vibe-coded-app-no-customers"
+      },
+      "datePublished": "2026-07-31",
+      "dateModified": "2026-07-31",
+      "inLanguage": "en-US",
+      "wordCount": 1750,
+      "author": {
+        "@type": "Person",
+        "name": "REPLACE_ME",
+        "url": "https://REPLACE_ME.com/about"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "REPLACE_ME",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://REPLACE_ME.com/logo.png"
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://REPLACE_ME.com/images/vibe-coded-app-no-customers.png",
+        "width": 1200,
+        "height": 630
+      },
+      "keywords": "vibe coded app no users, how to get customers for your app, vibe marketing, promoter blueprint, using AI for marketing, webinar funnel",
+      "articleSection": "Marketing"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://REPLACE_ME.com/blog/vibe-coded-app-no-customers#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does my vibe-coded app have no users?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almost always because no repeatable promotion system exists. A launched product with no traffic source, no owned audience, and no recurring selling events has no path from stranger to customer. The fix is building that path, not rebuilding the product."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a holding pattern in marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A holding pattern is a channel you own where interested people accumulate and warm up before buying — most commonly an email newsletter, but also a podcast, YouTube channel, or social following. You provide value there consistently and sell only occasionally."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I run a selling event?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frequently enough that non-converters get multiple chances, but not so often that your holding pattern feels like a sales channel. Many operators run a meaningful campaign monthly or quarterly, keeping the space between them genuinely useful and non-promotional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I use organic or paid traffic first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start organic if you have no budget and no proven offer — podcasts, content, and networking cost time instead of money and teach you what messaging lands. Add paid traffic once you know your conversion rates well enough to calculate what a new subscriber is worth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is AI actually useful for marketing, or just a distraction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both, depending on sequencing. It's a genuine multiplier on execution — drafting campaigns, building landing pages, structuring research. It becomes a distraction when used to build elaborate internal systems that don't move traffic, signups, or revenue."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://REPLACE_ME.com/blog/vibe-coded-app-no-customers#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://REPLACE_ME.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://REPLACE_ME.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Your Vibe-Coded App Has No Users. Here's the Fix."
+        }
+      ]
+    }
+  ]
+}
